@@ -1,0 +1,111 @@
+@media screen {
+    *
+   
+    head
+    {
+        max-width:1350px;
+    }
+    a
+    {
+        text-decoration-line :none ;
+        
+    }
+
+    a:-webkit-any-link 
+    {
+        text-decoration-line: none;
+    }
+
+    a:hover
+    {
+    text-decoration-line: underline;
+    }    
+
+    body
+    {
+    margin-top: 25px;
+    max-height: max-content;
+    padding: 0;
+    text-align: center;
+    font-size: 50%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+
+    background-image:url("D:\Mokhito\photo#9CD285.png");
+
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    size-adjust: 30%;
+    direction: unset;
+    }
+
+    div
+    {
+    margin: 30px;
+    padding: 20px;
+    perspective: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    }
+    
+    .headtitle
+    {
+        text-align: center;
+        background-color:rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        font-style: italic;
+
+        padding: 0px 50px 20px ;
+        position: sticky;
+        justify-content:center;
+        margin: 0px 0px 0px 0px; 
+        z-index: 2;
+        display: block;
+        width: 100%;
+    }
+    .headimg
+    {
+        width: 50%;
+       
+    }
+
+    .Pages
+    {
+        color: rgb(155, 215, 149);
+        background-color: rgb(155, 215, 149);
+        position:sticky ;
+        min-width: 900px    ;
+
+        margin: -0px 5px 30px 5px ;
+        max-height: min-content;
+        justify-content: space-between;
+        padding: 25px 100px 25px ;
+        z-index: 1;
+        justify-content:space-between;
+        opacity: 10;
+        overflow: visible;
+        display: block;
+    }
+    .pageimg:hover
+    {
+        overflow: visible;
+        transform: scale(1.1);
+        text-decoration-line: none;
+    }
+    
+    .pageimg
+    {
+    max-width: 300px;
+    max-height: 144px;
+    margin: auto;
+
+    padding: 0px 20px;
+    transition: all .5s ease-in-out;
+    }
+} 
